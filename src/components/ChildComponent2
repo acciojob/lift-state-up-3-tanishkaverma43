@@ -1,0 +1,12 @@
+import React from "react";
+
+function ChildComponent2({ onSelect }) {
+    return (
+        <div>
+            <p>Child Component 2</p>
+            <button onClick={() => onSelect("Option 2")}>Option 2</button>
+        </div>
+    );
+}
+
+export default ChildComponent2;
